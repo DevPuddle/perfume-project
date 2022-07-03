@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-sec {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+.h3-heading {
+    margin: 50 20;
+}
