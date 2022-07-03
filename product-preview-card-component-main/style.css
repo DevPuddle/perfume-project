@@ -5,13 +5,62 @@
 }
 
 .main-sec {
+    background: hsl(30, 38%, 92%);
     display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.buffer-sec {
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    background: white;
 }
 
 img {
-    max-width: 100%;
+    max-width:100%;
+    max-height:100%;
 }
 
-.h3-heading {
-    margin: 50 20;
+.h3-heading,
+h1,
+p {
+     margin: 10px 10px;
+}
+
+.span-2 {
+    text-decoration: line-through;
+}
+
+.span-1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+button {
+    padding: 10 10 10 10px;
+    margin: 25px 25px;
+    color: white;
+    background: green;
+    height: 25px;
+}
+
+.right-sec {
+    /* display: flex; */
+    padding-top: 25px;
+    line-height: 1.4;
+}
+
+.left-sec {
+    
+}
+
+img {
+    height: 100%;
 }
